@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-    "trainer_id": null,
     "name": "Bulbasaur",
     "type": [
       "Grass",
@@ -16,7 +15,6 @@
   },
   {
     "id": 2,
-    "trainer_id": null,
     "name": "Ivysaur",
     "type": [
       "Grass",
@@ -31,7 +29,6 @@
   },
   {
     "id": 3,
-    "trainer_id": null,
     "name": "Venusaur",
     "type": [
       "Grass",
@@ -46,7 +43,6 @@
   },
   {
     "id": 4,
-    "trainer_id": null,
     "name": "Charmander",
     "type": [
       "Fire"
@@ -60,7 +56,6 @@
   },
   {
     "id": 5,
-    "trainer_id": null,
     "name": "Charmeleon",
     "type": [
       "Fire"
@@ -74,7 +69,6 @@
   },
   {
     "id": 6,
-    "trainer_id": null,
     "name": "Charizard",
     "type": [
       "Fire",
@@ -89,7 +83,6 @@
   },
   {
     "id": 7,
-    "trainer_id": null,
     "name": "Squirtle",
     "type": [
       "Water"
@@ -103,7 +96,6 @@
   },
   {
     "id": 8,
-    "trainer_id": null,
     "name": "Wartortle",
     "type": [
       "Water"
@@ -117,7 +109,6 @@
   },
   {
     "id": 9,
-    "trainer_id": null,
     "name": "Blastoise",
     "type": [
       "Water"
@@ -131,7 +122,6 @@
   },
   {
     "id": 10,
-    "trainer_id": null,
     "name": "Caterpie",
     "type": [
       "Bug"
@@ -145,7 +135,6 @@
   },
   {
     "id": 11,
-    "trainer_id": null,
     "name": "Metapod",
     "type": [
       "Bug"
@@ -159,7 +148,6 @@
   },
   {
     "id": 12,
-    "trainer_id": null,
     "name": "Butterfree",
     "type": [
       "Bug",
@@ -174,7 +162,6 @@
   },
   {
     "id": 13,
-    "trainer_id": null,
     "name": "Weedle",
     "type": [
       "Bug",
@@ -189,7 +176,6 @@
   },
   {
     "id": 14,
-    "trainer_id": null,
     "name": "Kakuna",
     "type": [
       "Bug",
@@ -204,7 +190,6 @@
   },
   {
     "id": 15,
-    "trainer_id": null,
     "name": "Beedrill",
     "type": [
       "Bug",
@@ -219,7 +204,6 @@
   },
   {
     "id": 16,
-    "trainer_id": null,
     "name": "Pidgey",
     "type": [
       "Normal",
@@ -234,7 +218,6 @@
   },
   {
     "id": 17,
-    "trainer_id": null,
     "name": "Pidgeotto",
     "type": [
       "Normal",
@@ -249,7 +232,6 @@
   },
   {
     "id": 18,
-    "trainer_id": null,
     "name": "Pidgeot",
     "type": [
       "Normal",
@@ -264,7 +246,6 @@
   },
   {
     "id": 19,
-    "trainer_id": null,
     "name": "Rattata",
     "type": [
       "Normal"
@@ -278,7 +259,6 @@
   },
   {
     "id": 20,
-    "trainer_id": null,
     "name": "Raticate",
     "type": [
       "Normal"
@@ -292,7 +272,6 @@
   },
   {
     "id": 21,
-    "trainer_id": null,
     "name": "Spearow",
     "type": [
       "Normal",
@@ -307,7 +286,6 @@
   },
   {
     "id": 22,
-    "trainer_id": null,
     "name": "Fearow",
     "type": [
       "Normal",
@@ -322,7 +300,6 @@
   },
   {
     "id": 23,
-    "trainer_id": null,
     "name": "Ekans",
     "type": [
       "Poison"
@@ -336,7 +313,6 @@
   },
   {
     "id": 24,
-    "trainer_id": null,
     "name": "Arbok",
     "type": [
       "Poison"
@@ -350,7 +326,6 @@
   },
   {
     "id": 25,
-    "trainer_id": null,
     "name": "Pikachu",
     "type": [
       "Electric"
@@ -364,7 +339,6 @@
   },
   {
     "id": 26,
-    "trainer_id": null,
     "name": "Raichu",
     "type": [
       "Electric"
@@ -378,7 +352,6 @@
   },
   {
     "id": 27,
-    "trainer_id": null,
     "name": "Sandshrew",
     "type": [
       "Ground"
@@ -392,7 +365,6 @@
   },
   {
     "id": 28,
-    "trainer_id": null,
     "name": "Sandslash",
     "type": [
       "Ground"
@@ -406,7 +378,6 @@
   },
   {
     "id": 29,
-    "trainer_id": null,
     "name": "Nidoran♀",
     "type": [
       "Poison"
@@ -420,7 +391,6 @@
   },
   {
     "id": 30,
-    "trainer_id": null,
     "name": "Nidorina",
     "type": [
       "Poison"
@@ -434,7 +404,6 @@
   },
   {
     "id": 31,
-    "trainer_id": null,
     "name": "Nidoqueen",
     "type": [
       "Poison",
@@ -449,7 +418,6 @@
   },
   {
     "id": 32,
-    "trainer_id": null,
     "name": "Nidoran♂",
     "type": [
       "Poison"
@@ -463,7 +431,6 @@
   },
   {
     "id": 33,
-    "trainer_id": null,
     "name": "Nidorino",
     "type": [
       "Poison"
@@ -477,7 +444,6 @@
   },
   {
     "id": 34,
-    "trainer_id": null,
     "name": "Nidoking",
     "type": [
       "Poison",
@@ -492,7 +458,6 @@
   },
   {
     "id": 35,
-    "trainer_id": null,
     "name": "Clefairy",
     "type": [
       "Fairy"
@@ -506,7 +471,6 @@
   },
   {
     "id": 36,
-    "trainer_id": null,
     "name": "Clefable",
     "type": [
       "Fairy"
@@ -520,7 +484,6 @@
   },
   {
     "id": 37,
-    "trainer_id": null,
     "name": "Vulpix",
     "type": [
       "Fire"
@@ -534,7 +497,6 @@
   },
   {
     "id": 38,
-    "trainer_id": null,
     "name": "Ninetales",
     "type": [
       "Fire"
@@ -548,7 +510,6 @@
   },
   {
     "id": 39,
-    "trainer_id": null,
     "name": "Jigglypuff",
     "type": [
       "Normal",
@@ -563,7 +524,6 @@
   },
   {
     "id": 40,
-    "trainer_id": null,
     "name": "Wigglytuff",
     "type": [
       "Normal",
@@ -578,7 +538,6 @@
   },
   {
     "id": 41,
-    "trainer_id": null,
     "name": "Zubat",
     "type": [
       "Poison",
@@ -593,7 +552,6 @@
   },
   {
     "id": 42,
-    "trainer_id": null,
     "name": "Golbat",
     "type": [
       "Poison",
@@ -608,7 +566,6 @@
   },
   {
     "id": 43,
-    "trainer_id": null,
     "name": "Oddish",
     "type": [
       "Grass",
@@ -623,7 +580,6 @@
   },
   {
     "id": 44,
-    "trainer_id": null,
     "name": "Gloom",
     "type": [
       "Grass",
@@ -638,7 +594,6 @@
   },
   {
     "id": 45,
-    "trainer_id": null,
     "name": "Vileplume",
     "type": [
       "Grass",
@@ -653,7 +608,6 @@
   },
   {
     "id": 46,
-    "trainer_id": null,
     "name": "Paras",
     "type": [
       "Bug",
@@ -668,7 +622,6 @@
   },
   {
     "id": 47,
-    "trainer_id": null,
     "name": "Parasect",
     "type": [
       "Bug",
@@ -683,7 +636,6 @@
   },
   {
     "id": 48,
-    "trainer_id": null,
     "name": "Venonat",
     "type": [
       "Bug",
@@ -698,7 +650,6 @@
   },
   {
     "id": 49,
-    "trainer_id": null,
     "name": "Venomoth",
     "type": [
       "Bug",
@@ -713,7 +664,6 @@
   },
   {
     "id": 50,
-    "trainer_id": null,
     "name": "Diglett",
     "type": [
       "Ground"
@@ -727,7 +677,6 @@
   },
   {
     "id": 51,
-    "trainer_id": null,
     "name": "Dugtrio",
     "type": [
       "Ground"
@@ -741,7 +690,6 @@
   },
   {
     "id": 52,
-    "trainer_id": null,
     "name": "Meowth",
     "type": [
       "Normal"
@@ -755,7 +703,6 @@
   },
   {
     "id": 53,
-    "trainer_id": null,
     "name": "Persian",
     "type": [
       "Normal"
@@ -769,7 +716,6 @@
   },
   {
     "id": 54,
-    "trainer_id": null,
     "name": "Psyduck",
     "type": [
       "Water"
@@ -783,7 +729,6 @@
   },
   {
     "id": 55,
-    "trainer_id": null,
     "name": "Golduck",
     "type": [
       "Water"
@@ -797,7 +742,6 @@
   },
   {
     "id": 56,
-    "trainer_id": null,
     "name": "Mankey",
     "type": [
       "Fighting"
@@ -811,7 +755,6 @@
   },
   {
     "id": 57,
-    "trainer_id": null,
     "name": "Primeape",
     "type": [
       "Fighting"
@@ -825,7 +768,6 @@
   },
   {
     "id": 58,
-    "trainer_id": null,
     "name": "Growlithe",
     "type": [
       "Fire"
@@ -839,7 +781,6 @@
   },
   {
     "id": 59,
-    "trainer_id": null,
     "name": "Arcanine",
     "type": [
       "Fire"
@@ -853,7 +794,6 @@
   },
   {
     "id": 60,
-    "trainer_id": null,
     "name": "Poliwag",
     "type": [
       "Water"
@@ -867,7 +807,6 @@
   },
   {
     "id": 61,
-    "trainer_id": null,
     "name": "Poliwhirl",
     "type": [
       "Water"
@@ -881,7 +820,6 @@
   },
   {
     "id": 62,
-    "trainer_id": null,
     "name": "Poliwrath",
     "type": [
       "Water",
@@ -896,7 +834,6 @@
   },
   {
     "id": 63,
-    "trainer_id": null,
     "name": "Abra",
     "type": [
       "Psychic"
@@ -910,7 +847,6 @@
   },
   {
     "id": 64,
-    "trainer_id": null,
     "name": "Kadabra",
     "type": [
       "Psychic"
@@ -924,7 +860,6 @@
   },
   {
     "id": 65,
-    "trainer_id": null,
     "name": "Alakazam",
     "type": [
       "Psychic"
@@ -938,7 +873,6 @@
   },
   {
     "id": 66,
-    "trainer_id": null,
     "name": "Machop",
     "type": [
       "Fighting"
@@ -952,7 +886,6 @@
   },
   {
     "id": 67,
-    "trainer_id": null,
     "name": "Machoke",
     "type": [
       "Fighting"
@@ -966,7 +899,6 @@
   },
   {
     "id": 68,
-    "trainer_id": null,
     "name": "Machamp",
     "type": [
       "Fighting"
@@ -980,7 +912,6 @@
   },
   {
     "id": 69,
-    "trainer_id": null,
     "name": "Bellsprout",
     "type": [
       "Grass",
@@ -995,7 +926,6 @@
   },
   {
     "id": 70,
-    "trainer_id": null,
     "name": "Weepinbell",
     "type": [
       "Grass",
@@ -1010,7 +940,6 @@
   },
   {
     "id": 71,
-    "trainer_id": null,
     "name": "Victreebel",
     "type": [
       "Grass",
@@ -1025,7 +954,6 @@
   },
   {
     "id": 72,
-    "trainer_id": null,
     "name": "Tentacool",
     "type": [
       "Water",
@@ -1040,7 +968,6 @@
   },
   {
     "id": 73,
-    "trainer_id": null,
     "name": "Tentacruel",
     "type": [
       "Water",
@@ -1055,7 +982,6 @@
   },
   {
     "id": 74,
-    "trainer_id": null,
     "name": "Geodude",
     "type": [
       "Rock",
@@ -1070,7 +996,6 @@
   },
   {
     "id": 75,
-    "trainer_id": null,
     "name": "Graveler",
     "type": [
       "Rock",
@@ -1085,7 +1010,6 @@
   },
   {
     "id": 76,
-    "trainer_id": null,
     "name": "Golem",
     "type": [
       "Rock",
@@ -1100,7 +1024,6 @@
   },
   {
     "id": 77,
-    "trainer_id": null,
     "name": "Ponyta",
     "type": [
       "Fire"
@@ -1114,7 +1037,6 @@
   },
   {
     "id": 78,
-    "trainer_id": null,
     "name": "Rapidash",
     "type": [
       "Fire"
@@ -1128,7 +1050,6 @@
   },
   {
     "id": 79,
-    "trainer_id": null,
     "name": "Slowpoke",
     "type": [
       "Water",
@@ -1143,7 +1064,6 @@
   },
   {
     "id": 80,
-    "trainer_id": null,
     "name": "Slowbro",
     "type": [
       "Water",
@@ -1158,7 +1078,6 @@
   },
   {
     "id": 81,
-    "trainer_id": null,
     "name": "Magnemite",
     "type": [
       "Electric",
@@ -1173,7 +1092,6 @@
   },
   {
     "id": 82,
-    "trainer_id": null,
     "name": "Magneton",
     "type": [
       "Electric",
@@ -1188,7 +1106,6 @@
   },
   {
     "id": 83,
-    "trainer_id": null,
     "name": "Farfetch'd",
     "type": [
       "Normal",
@@ -1203,7 +1120,6 @@
   },
   {
     "id": 84,
-    "trainer_id": null,
     "name": "Doduo",
     "type": [
       "Normal",
@@ -1218,7 +1134,6 @@
   },
   {
     "id": 85,
-    "trainer_id": null,
     "name": "Dodrio",
     "type": [
       "Normal",
@@ -1233,7 +1148,6 @@
   },
   {
     "id": 86,
-    "trainer_id": null,
     "name": "Seel",
     "type": [
       "Water"
@@ -1247,7 +1161,6 @@
   },
   {
     "id": 87,
-    "trainer_id": null,
     "name": "Dewgong",
     "type": [
       "Water",
@@ -1262,7 +1175,6 @@
   },
   {
     "id": 88,
-    "trainer_id": null,
     "name": "Grimer",
     "type": [
       "Poison"
@@ -1276,7 +1188,6 @@
   },
   {
     "id": 89,
-    "trainer_id": null,
     "name": "Muk",
     "type": [
       "Poison"
@@ -1290,7 +1201,6 @@
   },
   {
     "id": 90,
-    "trainer_id": null,
     "name": "Shellder",
     "type": [
       "Water"
@@ -1304,7 +1214,6 @@
   },
   {
     "id": 91,
-    "trainer_id": null,
     "name": "Cloyster",
     "type": [
       "Water",
@@ -1319,7 +1228,6 @@
   },
   {
     "id": 92,
-    "trainer_id": null,
     "name": "Gastly",
     "type": [
       "Ghost",
@@ -1334,7 +1242,6 @@
   },
   {
     "id": 93,
-    "trainer_id": null,
     "name": "Haunter",
     "type": [
       "Ghost",
@@ -1349,7 +1256,6 @@
   },
   {
     "id": 94,
-    "trainer_id": null,
     "name": "Gengar",
     "type": [
       "Ghost",
@@ -1364,7 +1270,6 @@
   },
   {
     "id": 95,
-    "trainer_id": null,
     "name": "Onix",
     "type": [
       "Rock",
@@ -1379,7 +1284,6 @@
   },
   {
     "id": 96,
-    "trainer_id": null,
     "name": "Drowzee",
     "type": [
       "Psychic"
@@ -1393,7 +1297,6 @@
   },
   {
     "id": 97,
-    "trainer_id": null,
     "name": "Hypno",
     "type": [
       "Psychic"
@@ -1407,7 +1310,6 @@
   },
   {
     "id": 98,
-    "trainer_id": null,
     "name": "Krabby",
     "type": [
       "Water"
@@ -1421,7 +1323,6 @@
   },
   {
     "id": 99,
-    "trainer_id": null,
     "name": "Kingler",
     "type": [
       "Water"
@@ -1435,7 +1336,6 @@
   },
   {
     "id": 100,
-    "trainer_id": null,
     "name": "Voltorb",
     "type": [
       "Electric"
@@ -1449,7 +1349,6 @@
   },
   {
     "id": 101,
-    "trainer_id": null,
     "name": "Electrode",
     "type": [
       "Electric"
@@ -1463,7 +1362,6 @@
   },
   {
     "id": 102,
-    "trainer_id": null,
     "name": "Exeggcute",
     "type": [
       "Grass",
@@ -1478,7 +1376,6 @@
   },
   {
     "id": 103,
-    "trainer_id": null,
     "name": "Exeggutor",
     "type": [
       "Grass",
@@ -1493,7 +1390,6 @@
   },
   {
     "id": 104,
-    "trainer_id": null,
     "name": "Cubone",
     "type": [
       "Ground"
@@ -1507,7 +1403,6 @@
   },
   {
     "id": 105,
-    "trainer_id": null,
     "name": "Marowak",
     "type": [
       "Ground"
@@ -1521,7 +1416,6 @@
   },
   {
     "id": 106,
-    "trainer_id": null,
     "name": "Hitmonlee",
     "type": [
       "Fighting"
@@ -1535,7 +1429,6 @@
   },
   {
     "id": 107,
-    "trainer_id": null,
     "name": "Hitmonchan",
     "type": [
       "Fighting"
@@ -1549,7 +1442,6 @@
   },
   {
     "id": 108,
-    "trainer_id": null,
     "name": "Lickitung",
     "type": [
       "Normal"
@@ -1563,7 +1455,6 @@
   },
   {
     "id": 109,
-    "trainer_id": null,
     "name": "Koffing",
     "type": [
       "Poison"
@@ -1577,7 +1468,6 @@
   },
   {
     "id": 110,
-    "trainer_id": null,
     "name": "Weezing",
     "type": [
       "Poison"
@@ -1591,7 +1481,6 @@
   },
   {
     "id": 111,
-    "trainer_id": null,
     "name": "Rhyhorn",
     "type": [
       "Ground",
@@ -1606,7 +1495,6 @@
   },
   {
     "id": 112,
-    "trainer_id": null,
     "name": "Rhydon",
     "type": [
       "Ground",
@@ -1621,7 +1509,6 @@
   },
   {
     "id": 113,
-    "trainer_id": null,
     "name": "Chansey",
     "type": [
       "Normal"
@@ -1635,7 +1522,6 @@
   },
   {
     "id": 114,
-    "trainer_id": null,
     "name": "Tangela",
     "type": [
       "Grass"
@@ -1649,7 +1535,6 @@
   },
   {
     "id": 115,
-    "trainer_id": null,
     "name": "Kangaskhan",
     "type": [
       "Normal"
@@ -1663,7 +1548,6 @@
   },
   {
     "id": 116,
-    "trainer_id": null,
     "name": "Horsea",
     "type": [
       "Water"
@@ -1677,7 +1561,6 @@
   },
   {
     "id": 117,
-    "trainer_id": null,
     "name": "Seadra",
     "type": [
       "Water"
@@ -1691,7 +1574,6 @@
   },
   {
     "id": 118,
-    "trainer_id": null,
     "name": "Goldeen",
     "type": [
       "Water"
@@ -1705,7 +1587,6 @@
   },
   {
     "id": 119,
-    "trainer_id": null,
     "name": "Seaking",
     "type": [
       "Water"
@@ -1719,7 +1600,6 @@
   },
   {
     "id": 120,
-    "trainer_id": null,
     "name": "Staryu",
     "type": [
       "Water"
@@ -1733,7 +1613,6 @@
   },
   {
     "id": 121,
-    "trainer_id": null,
     "name": "Starmie",
     "type": [
       "Water",
@@ -1748,7 +1627,6 @@
   },
   {
     "id": 122,
-    "trainer_id": null,
     "name": "Mr. Mime",
     "type": [
       "Psychic",
@@ -1763,7 +1641,6 @@
   },
   {
     "id": 123,
-    "trainer_id": null,
     "name": "Scyther",
     "type": [
       "Bug",
@@ -1778,7 +1655,6 @@
   },
   {
     "id": 124,
-    "trainer_id": null,
     "name": "Jynx",
     "type": [
       "Ice",
@@ -1793,7 +1669,6 @@
   },
   {
     "id": 125,
-    "trainer_id": null,
     "name": "Electabuzz",
     "type": [
       "Electric"
@@ -1807,7 +1682,6 @@
   },
   {
     "id": 126,
-    "trainer_id": null,
     "name": "Magmar",
     "type": [
       "Fire"
@@ -1821,7 +1695,6 @@
   },
   {
     "id": 127,
-    "trainer_id": null,
     "name": "Pinsir",
     "type": [
       "Bug"
@@ -1835,7 +1708,6 @@
   },
   {
     "id": 128,
-    "trainer_id": null,
     "name": "Tauros",
     "type": [
       "Normal"
@@ -1849,7 +1721,6 @@
   },
   {
     "id": 129,
-    "trainer_id": null,
     "name": "Magikarp",
     "type": [
       "Water"
@@ -1863,7 +1734,6 @@
   },
   {
     "id": 130,
-    "trainer_id": null,
     "name": "Gyarados",
     "type": [
       "Water",
@@ -1878,7 +1748,6 @@
   },
   {
     "id": 131,
-    "trainer_id": null,
     "name": "Lapras",
     "type": [
       "Water",
@@ -1893,7 +1762,6 @@
   },
   {
     "id": 132,
-    "trainer_id": null,
     "name": "Ditto",
     "type": [
       "Normal"
@@ -1907,7 +1775,6 @@
   },
   {
     "id": 133,
-    "trainer_id": null,
     "name": "Eevee",
     "type": [
       "Normal"
@@ -1921,7 +1788,6 @@
   },
   {
     "id": 134,
-    "trainer_id": null,
     "name": "Vaporeon",
     "type": [
       "Water"
@@ -1935,7 +1801,6 @@
   },
   {
     "id": 135,
-    "trainer_id": null,
     "name": "Jolteon",
     "type": [
       "Electric"
@@ -1949,7 +1814,6 @@
   },
   {
     "id": 136,
-    "trainer_id": null,
     "name": "Flareon",
     "type": [
       "Fire"
@@ -1963,7 +1827,6 @@
   },
   {
     "id": 137,
-    "trainer_id": null,
     "name": "Porygon",
     "type": [
       "Normal"
@@ -1977,7 +1840,6 @@
   },
   {
     "id": 138,
-    "trainer_id": null,
     "name": "Omanyte",
     "type": [
       "Rock",
@@ -1992,7 +1854,6 @@
   },
   {
     "id": 139,
-    "trainer_id": null,
     "name": "Omastar",
     "type": [
       "Rock",
@@ -2007,7 +1868,6 @@
   },
   {
     "id": 140,
-    "trainer_id": null,
     "name": "Kabuto",
     "type": [
       "Rock",
@@ -2022,7 +1882,6 @@
   },
   {
     "id": 141,
-    "trainer_id": null,
     "name": "Kabutops",
     "type": [
       "Rock",
@@ -2037,7 +1896,6 @@
   },
   {
     "id": 142,
-    "trainer_id": null,
     "name": "Aerodactyl",
     "type": [
       "Rock",
@@ -2052,7 +1910,6 @@
   },
   {
     "id": 143,
-    "trainer_id": null,
     "name": "Snorlax",
     "type": [
       "Normal"
@@ -2066,7 +1923,6 @@
   },
   {
     "id": 144,
-    "trainer_id": null,
     "name": "Articuno",
     "type": [
       "Ice",
@@ -2081,7 +1937,6 @@
   },
   {
     "id": 145,
-    "trainer_id": null,
     "name": "Zapdos",
     "type": [
       "Electric",
@@ -2096,7 +1951,6 @@
   },
   {
     "id": 146,
-    "trainer_id": null,
     "name": "Moltres",
     "type": [
       "Fire",
@@ -2111,7 +1965,6 @@
   },
   {
     "id": 147,
-    "trainer_id": null,
     "name": "Dratini",
     "type": [
       "Dragon"
@@ -2125,7 +1978,6 @@
   },
   {
     "id": 148,
-    "trainer_id": null,
     "name": "Dragonair",
     "type": [
       "Dragon"
@@ -2139,7 +1991,6 @@
   },
   {
     "id": 149,
-    "trainer_id": null,
     "name": "Dragonite",
     "type": [
       "Dragon",
@@ -2154,7 +2005,6 @@
   },
   {
     "id": 150,
-    "trainer_id": null,
     "name": "Mewtwo",
     "type": [
       "Psychic"
@@ -2168,7 +2018,6 @@
   },
   {
     "id": 151,
-    "trainer_id": null,
     "name": "Mew",
     "type": [
       "Psychic"

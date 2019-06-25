@@ -2,11 +2,11 @@ const Nightmare = require('nightmare');
 const nightmare = Nightmare({ show: true });
 
 nightmare
-	.goto('http://reddit.com/r/world_news')
+	.goto('http://pokedream.com/pokedex/pokemon?display=gen1')
 	.wait(5000)
 	.evaluate(() => {
-		const nodes = document.querySelectorAll('h3');
-		return [...nodes].map(node => node.innerText);
+		const nodes = document.querySelectorAll('table#pokemon-table td:first-child img');
+		return [...nodes].map(node => node.src);
 	})
 	.end()
 	.then(result => console.log(result))
