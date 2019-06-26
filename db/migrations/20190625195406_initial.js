@@ -13,13 +13,13 @@ exports.up = function(knex) {
 		}),
 		knex.schema.createTable('trainers_pokemon', table => {
 			table
-				.integer('pokemon_id')
-				.unsigned()
-				.references('pokemon.id');
-			table
 				.integer('trainer_id')
 				.unsigned()
 				.references('trainers.id');
+			table
+				.integer('pokemon_id')
+				.unsigned()
+				.references('pokemon.id');
 		}),
 		knex.schema.createTable('trainers', table => {
 			table.increments('id').primary();
