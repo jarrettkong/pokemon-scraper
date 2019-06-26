@@ -188,6 +188,7 @@
     "Speed": 75
   },
   {
+    "name": "Pidgey",
     "type": [
       "Normal",
       "Flying"
@@ -200,6 +201,7 @@
     "Speed": 56
   },
   {
+    "name": "Pidgeotto",
     "type": [
       "Normal",
       "Flying"
@@ -212,6 +214,7 @@
     "Speed": 71
   },
   {
+    "name": "Pidgeot",
     "type": [
       "Normal",
       "Flying"
@@ -346,6 +349,7 @@
     "Speed": 65
   },
   {
+    "name": "Nidoran♀",
     "type": [
       "Poison"
     ],
@@ -357,6 +361,7 @@
     "Speed": 41
   },
   {
+    "name": "Nidorina",
     "type": [
       "Poison"
     ],
@@ -368,6 +373,7 @@
     "Speed": 56
   },
   {
+    "name": "Nidoqueen",
     "type": [
       "Poison",
       "Ground"
@@ -380,6 +386,7 @@
     "Speed": 76
   },
   {
+    "name": "Nidoran♂",
     "type": [
       "Poison"
     ],
@@ -391,6 +398,7 @@
     "Speed": 50
   },
   {
+    "name": "Nidorino",
     "type": [
       "Poison"
     ],
@@ -402,6 +410,7 @@
     "Speed": 65
   },
   {
+    "name": "Nidoking",
     "type": [
       "Poison",
       "Ground"
@@ -950,6 +959,7 @@
     "Speed": 90
   },
   {
+    "name": "Rapidash",
     "type": [
       "Fire"
     ],

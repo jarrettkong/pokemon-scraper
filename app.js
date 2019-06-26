@@ -73,4 +73,6 @@ app.get('/api/v1/trainers/:id', (req, res) => {
 		.catch(() => res.status(404).send(`No trainer found with id ${id}`));
 });
 
+app.delete('/api/v1/:table/:id', (req, res) => {});
+
 app.listen(port, console.log(`Listening on port ${port}.`));
