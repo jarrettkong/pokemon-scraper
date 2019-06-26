@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
 		knex.schema.createTable('pokemon', table => {
 			table.increments('id').primary();
 			table.string('name');
-			table.json('type');
+			table.specificType('type', 'text ARRAY');
 			table.integer('HP');
 			table.integer('Attack');
 			table.integer('Defense');
@@ -24,11 +24,15 @@ exports.up = function(knex, Promise) {
 		knex.schema.createTable('trainers', table => {
 			table.increments('id').primary();
 			table.string('name');
-			table.json('pokemon');
+			table.specificType('pokemon', 'integer ARRAY');
 		})
 	]);
 };
 
 exports.down = function(knex, Promise) {
-	return Promise.all([knex.schema.dropTable('trainers'), knex.schema.dropTable('pokemon')]);
+	return Promise.all([
+		knex.schema.dropTable('trainers_pokemon'),
+		knex.schema.dropTable('trainers'),
+		knex.schema.dropTable('pokemon')
+	]);
 };

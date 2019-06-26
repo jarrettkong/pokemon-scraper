@@ -60,7 +60,7 @@ app.post('/api/v1/trainers', (req, res) => {
 app.get('/api/v1/pokemon/:id', (req, res) => {
 	const id = parseInt(req.params.id);
 	db('pokemon')
-		.where('id', id)
+		.where({ id })
 		.then(pokemon => res.status(200).json(pokemon))
 		.catch(() => res.status(404).send(`No pokemon found with number ${id}`));
 });
@@ -68,7 +68,7 @@ app.get('/api/v1/pokemon/:id', (req, res) => {
 app.get('/api/v1/trainers/:id', (req, res) => {
 	const id = parseInt(req.params.id);
 	db('trainers')
-		.where('id', id)
+		.where({ id })
 		.then(trainer => res.status(200).json(trainer))
 		.catch(() => res.status(404).send(`No trainer found with id ${id}`));
 });

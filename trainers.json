@@ -1,146 +1,117 @@
 [
 	{
-		"id": 1,
 		"name": "Ash",
 		"pokemon": [ 25, 89, 143, 3, 6, 9 ]
 	},
 	{
-		"id": 2,
 		"name": "Misty",
 		"pokemon": [ 54, 118, 61, 120, 130 ]
 	},
 	{
-		"id": 3,
 		"name": "Brock",
 		"pokemon": [ 74, 95 ]
 	},
 	{
-		"id": 4,
 		"name": "Gary",
 		"pokemon": []
 	},
 	{
-		"id": 5,
 		"name": "Lt. Surge",
 		"pokemon": [ 100, 25, 26 ]
 	},
 	{
-		"id": 6,
 		"name": "Lt. Surge",
 		"pokemon": [ 100, 25, 26 ]
 	},
 	{
-		"id": 7,
 		"name": "Erika",
 		"pokemon": [ 75, 114, 45 ]
 	},
 	{
-		"id": 8,
 		"name": "Koga",
 		"pokemon": [ 109, 109, 89, 110 ]
 	},
 	{
-		"id": 10,
 		"name": "Janine",
 		"pokemon": [ 42, 110, 110, 49, 89 ]
 	},
 	{
-		"id": 11,
 		"name": "Sabrina",
 		"pokemon": [ 64, 65, 49, 122 ]
 	},
 	{
-		"id": 12,
 		"name": "Blaine",
 		"pokemon": [ 58, 59, 77, 78 ]
 	},
 	{
-		"id": 13,
 		"name": "Giovanni",
 		"pokemon": [ 31, 34, 51, 111, 112 ]
 	},
 	{
-		"id": 14,
 		"name": "Lorelei",
 		"pokemon": [ 87, 91, 80, 124, 131 ]
 	},
 	{
-		"id": 15,
 		"name": "Bruno",
 		"pokemon": [ 95, 95, 106, 107, 68 ]
 	},
 	{
-		"id": 16,
 		"name": "Agatha",
 		"pokemon": [ 93, 94, 94, 42, 24 ]
 	},
 	{
-		"id": 17,
 		"name": "Lance",
 		"pokemon": [ 130, 142, 148, 148, 149 ]
 	},
 	{
-		"id": 18,
 		"name": "Blue",
 		"pokemon": [ 18, 65, 112, 59, 103, 9 ]
 	},
 	{
-		"id": 19,
 		"name": "Jessie",
 		"pokemon": [ 52, 24, 108, 110, 113 ]
 	},
 	{
-		"id": 20,
 		"name": "James",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 21,
 		"name": "Pam",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 22,
 		"name": "Robbie",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 23,
 		"name": "Brittany",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 24,
 		"name": "Jeff",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 25,
 		"name": "Travis",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 26,
 		"name": "Khalid",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 27,
 		"name": "Louisa",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 28,
 		"name": "Leta",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 29,
 		"name": "Christie",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	},
 	{
-		"id": 30,
 		"name": "Will",
 		"pokemon": [ 52, 130, 71, 110, 82 ]
 	}
