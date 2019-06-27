@@ -16,11 +16,11 @@ app.get('/api/v1/pokemon', (req, res) => {
 
 app.post('/api/v1/pokemon', (req, res) => {
 	const pokemon = req.body;
-	const required = ['id', 'name', 'type', 'HP', 'Attack', 'Defense', 'Sp. Attack', 'Sp. Defense', 'Speed'];
+	const required = ['name', 'type', 'HP', 'Attack', 'Defense', 'Sp Attack', 'Sp Defense', 'Speed'];
 
 	for (let param of required) {
 		if (!pokemon[param]) {
-			return res.status(422).send('Unprocessible Entity');
+			return res.status(422).send(`Unprocessible Entity: Missing ${param} parameter.`);
 		}
 	}
 
@@ -43,12 +43,12 @@ app.post('/api/v1/trainers', (req, res) => {
 
 	for (let param of required) {
 		if (!trainer[param]) {
-			return res.status(422).send('Unprocessible Entity');
+			return res.status(422).send(`Unprocessible Entity: Missing ${param} parameter.`);
 		}
 	}
 
 	if (trainer.pokemon.length < 1 || trainer.pokemon.length > 6) {
-		return res.status(422).send('Unprocessible Entity');
+		return res.status(422).send('Pokemon party size should be between 1 and 6');
 	}
 
 	db('trainers')
@@ -73,6 +73,16 @@ app.get('/api/v1/trainers/:id', (req, res) => {
 		.catch(() => res.status(404).send(`No trainer found with id ${id}`));
 });
 
-app.delete('/api/v1/:table/:id', (req, res) => {});
+app.delete('/api/v1/:table/:id', (req, res) => {
+	const { table, id } = req.params;
+	db(table)
+		.where({ id })
+		.then(pokemon => {
+			if (!pokemon.length) {
+				return res.status(404).send(`No id ${id} found in table "${table}".`);
+			}
+			return res.sendStatus(204);
+		});
+});
 
 app.listen(port, console.log(`Listening on port ${port}.`));
