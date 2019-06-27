@@ -33,7 +33,22 @@ app.post('/api/v1/pokemon', (req, res) => {
 app.get('/api/v1/trainers', (req, res) => {
 	db('trainers')
 		.select()
-		.then(trainers => res.status(200).json(trainers))
+		.then(async trainers => {
+			const mappedTrainers = trainers.map(async trainer => {
+				await db('trainers_pokemon')
+					.where({ trainer_id: trainer.id })
+					.then(async pokemon => {
+						const mappedPokemon = pokemon.map(async p => {
+							const res = await db('pokemon').where({ id: p.pokemon_id });
+							return res[0];
+						});
+						trainer.pokemon = await Promise.all(mappedPokemon);
+					});
+				return trainer;
+			});
+			const result = await Promise.all(mappedTrainers)
+			return res.status(200).json(result);
+		})
 		.catch(error => res.status(500).json({ error }));
 });
 
@@ -78,7 +93,16 @@ app.get('/api/v1/trainers/:id', (req, res) => {
 			if (!trainer[0]) {
 				return res.status(404).send(`No trainer found with id ${id}`);
 			}
-			return res.status(200).json(trainer);
+			db('trainers_pokemon')
+				.where({ trainer_id: id })
+				.then(async pokemon => {
+					const mappedPokemon = pokemon.map(async p => {
+						const res = await db('pokemon').where({ id: p.pokemon_id });
+						return res[0];
+					});
+					trainer[0].pokemon = await Promise.all(mappedPokemon);
+					return res.status(200).json(trainer);
+				});
 		})
 		.catch(error => res.status(500).json({ error }));
 });
