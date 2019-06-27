@@ -61,16 +61,26 @@ app.get('/api/v1/pokemon/:id', (req, res) => {
 	const id = parseInt(req.params.id);
 	db('pokemon')
 		.where({ id })
-		.then(pokemon => res.status(200).json(pokemon))
-		.catch(() => res.status(404).send(`No pokemon found with number ${id}`));
+		.then(pokemon => {
+			if (!pokemon[0]) {
+				return res.status(404).send(`No pokemon found with number ${id}`);
+			}
+			return res.status(200).json(pokemon);
+		})
+		.catch(error => res.status(500).json({ error }));
 });
 
 app.get('/api/v1/trainers/:id', (req, res) => {
 	const id = parseInt(req.params.id);
 	db('trainers')
 		.where({ id })
-		.then(trainer => res.status(200).json(trainer))
-		.catch(() => res.status(404).send(`No trainer found with id ${id}`));
+		.then(trainer => {
+			if (!trainer[0]) {
+				return res.status(404).send(`No trainer found with id ${id}`);
+			}
+			return res.status(200).json(trainer);
+		})
+		.catch(error => res.status(500).json({ error }));
 });
 
 app.delete('/api/v1/:table/:id', (req, res) => {
@@ -78,11 +88,15 @@ app.delete('/api/v1/:table/:id', (req, res) => {
 	db(table)
 		.where({ id })
 		.then(pokemon => {
-			if (!pokemon.length) {
+			if (!pokemon[0]) {
 				return res.status(404).send(`No id ${id} found in table "${table}".`);
 			}
-			return res.sendStatus(204);
-		});
+			db(table)
+				.where({ id })
+				.del()
+				.then(() => res.sendStatus(204));
+		})
+		.catch(error => res.status(500).json({ error }));
 });
 
 app.listen(port, console.log(`Listening on port ${port}.`));
