@@ -26,7 +26,7 @@ app.post('/api/v1/pokemon', (req, res) => {
 
 	db('pokemon')
 		.insert(pokemon, 'id')
-		.then(pokemon => res.status(201).send({ id: pokemon[0] }))
+		.then(id => res.status(201).send({ id: id[0] }))
 		.catch(error => res.status(500).send({ error }));
 });
 
@@ -40,7 +40,7 @@ app.get('/api/v1/trainers', (req, res) => {
 					.then(async pokemon => {
 						const mappedPokemon = pokemon.map(async p => {
 							const res = await db('pokemon').where({ id: p.pokemon_id });
-							return res[0];
+							return res[0] || null; 
 						});
 						trainer.pokemon = await Promise.all(mappedPokemon);
 					});
@@ -98,7 +98,7 @@ app.get('/api/v1/trainers/:id', (req, res) => {
 				.then(async pokemon => {
 					const mappedPokemon = pokemon.map(async p => {
 						const res = await db('pokemon').where({ id: p.pokemon_id });
-						return res[0];
+						return res[0] || null;
 					});
 					trainer[0].pokemon = await Promise.all(mappedPokemon);
 					return res.status(200).json(trainer);
