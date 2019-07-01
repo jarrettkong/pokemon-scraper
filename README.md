@@ -125,31 +125,31 @@ Then, go to `http://localhost:3001/` in your browser to see the code running in 
 - EXAMPLE RESPONSE:
 ```json
 [
-{
-"id": 1,
-"name": "Ash",
-"pokemon": [
-{
-"id": 25,
-"name": "Pikachu",
-"type": [
-"Electric"
-],
-"HP": 35,
-"Attack": 55,
-"Defense": 40,
-"Sp Attack": 50,
-"Sp Defense": 50,
-"Speed": 90,
-"created_at": "2019-07-01T13:07:13.207Z",
-"updated_at": "2019-07-01T13:07:13.207Z"
-}
-...
-],
-"created_at": "2019-07-01T13:07:13.220Z",
-"updated_at": "2019-07-01T13:07:13.220Z"
-},
-...
+  {
+    "id": 1,
+    "name": "Ash",
+    "pokemon": [
+      {
+      "id": 25,
+      "name": "Pikachu",
+      "type": [
+      "Electric"
+      ],
+      "HP": 35,
+      "Attack": 55,
+      "Defense": 40,
+      "Sp Attack": 50,
+      "Sp Defense": 50,
+      "Speed": 90,
+      "created_at": "2019-07-01T13:07:13.207Z",
+      "updated_at": "2019-07-01T13:07:13.207Z"
+      }
+      ...
+    ],
+    "created_at": "2019-07-01T13:07:13.220Z",
+    "updated_at": "2019-07-01T13:07:13.220Z"
+  },
+  ...
 ]
 ```
 
@@ -158,7 +158,38 @@ Then, go to `http://localhost:3001/` in your browser to see the code running in 
 - Endpoint: /api/v1/trainers/:id
 - EXAMPLE RESPONSE:
 ```json
-    {"id":19,"name":"Jessie","pokemon":[{"id":52,"name":"Meowth","type":["Normal"],"HP":40,"Attack":45,"Defense":35,"Sp Attack":40,"Sp Defense":40,"Speed":90,"created_at":"2019-07-01T13:07:13.207Z","updated_at":"2019-07-01T13:07:13.207Z"},{"id":24,"name":"Arbok","type":["Poison"],"HP":60,"Attack":95,"Defense":69,"Sp Attack":65,"Sp Defense":79,"Speed":80,"created_at":"2019-07-01T13:07:13.207Z","updated_at":"2019-07-01T13:07:13.207Z"},{"id":108,"name":"Lickitung","type":["Normal"],"HP":90,"Attack":55,"Defense":75,"Sp Attack":60,"Sp Defense":75,"Speed":30,"created_at":"2019-07-01T13:07:13.207Z","updated_at":"2019-07-01T13:07:13.207Z"},{"id":110,"name":"Weezing","type":["Poison"],"HP":65,"Attack":90,"Defense":120,"Sp Attack":85,"Sp Defense":70,"Speed":60,"created_at":"2019-07-01T13:07:13.207Z","updated_at":"2019-07-01T13:07:13.207Z"},{"id":113,"name":"Chansey","type":["Normal"],"HP":250,"Attack":5,"Defense":5,"Sp Attack":35,"Sp Defense":105,"Speed":50,"created_at":"2019-07-01T13:07:13.207Z","updated_at":"2019-07-01T13:07:13.207Z"}],"created_at":"2019-07-01T13:07:13.239Z","updated_at":"2019-07-01T13:07:13.239Z"}
+    {
+      "id": 19,
+      "name": "Jessie",
+      "pokemon": [
+        {
+          "id": 52,
+          "name": "Meowth",
+          "type": [ "Normal" ],
+          "HP": 40,
+          "Attack": 45,
+          "Defense": 35,
+          "Sp Attack": 40,
+          "Sp Defense": 40, 
+          "Speed": 90,
+          "created_at": "2019-07-01T13:07:13.207Z",
+          "updated_at": "2019-07-01T13:07:13.207Z"
+        },
+        {
+          "id": 24,
+          "name": "Arbok",
+          "type": [ "Poison" ],
+          "HP": 60,
+          "Attack": 95,
+          "Defense": 69,
+          "Sp Attack": 65,
+          "Sp Defense": 79,
+          "Speed": 80,
+          "created_at": "2019-07-01T13:07:13.207Z",
+          "updated_at": "2019-07-01T13:07:13.207Z"
+        },
+        ...
+    }
 ```
 
 ### Post data
