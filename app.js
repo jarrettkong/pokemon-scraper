@@ -3,9 +3,10 @@ const configuration = require('./knexfile')[environment];
 const db = require('knex')(configuration);
 const express = require('express');
 const app = express();
-const port = 3001;
 
 app.use(express.json());
+
+app.set('port', process.env.PORT || 3000);
 
 app.get('/api/v1/pokemon', (req, res) => {
 	db('pokemon')
@@ -40,13 +41,13 @@ app.get('/api/v1/trainers', (req, res) => {
 					.then(async pokemon => {
 						const mappedPokemon = pokemon.map(async p => {
 							const res = await db('pokemon').where({ id: p.pokemon_id });
-							return res[0] || null; 
+							return res[0] || null;
 						});
 						trainer.pokemon = await Promise.all(mappedPokemon);
 					});
 				return trainer;
 			});
-			const result = await Promise.all(mappedTrainers)
+			const result = await Promise.all(mappedTrainers);
 			return res.status(200).json(result);
 		})
 		.catch(error => res.status(500).json({ error }));
@@ -123,4 +124,4 @@ app.delete('/api/v1/:table/:id', (req, res) => {
 		.catch(error => res.status(500).json({ error }));
 });
 
-app.listen(port, console.log(`Listening on port ${port}.`));
+app.listen(app.get('port'), console.log(`Listening on port ${app.get('port')}.`));
